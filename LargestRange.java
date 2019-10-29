@@ -41,6 +41,6 @@ public class LargestRange {
 
         int[] sample = new int[] {8,4,2,10,3,6,7,9,1};
         int[] result = largestRange(sample);
-        System.out.println(result[0] + " " + result[1]);
+        System.out.println("[" + result[0] + " " + result[1] + "]");
     }
 }
